@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/*CSS Doc*/
+
+body
+{
+	background-image: url(../images/space.jpeg);
+	height: 1200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.hidden
+{
+	display: none;
+}
+
+#dropZone
+{
+	width: 40%;
+	margin-bottom: 30px;
+	margin-left: 560px;
+	margin-right: auto;
+}
+
+#musicTapes
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#musicTapes img
+{
+	height: 300px;
+	width: 500px;
+}
+
+#resetButton
+{
+	background-color: #666;
+	width: 200px;
+	display: block;
+	margin-top: 45px;
+	margin-left: 850px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	transition: all .3s ease;
+}
+
+#resetButton:hover
+{
+	background-color: red;
+	border-radius: 20px;
+}
