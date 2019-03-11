@@ -1,4 +1,4 @@
-# hollenbeck_dockstader_music_mixer
+# Music Mixer by Keiran Hollenbeck and Cheyenne Dockstader
 On the homepage the viewer will see a boombox and five cassette tapes Labled Chainsmokers, Coldplay, We Are Leo, Breaking Benjamin, and Ed Sheeran. The viewer will then choose a tape to listen to.
 The  viewer will click one of the five cassette tapes and drag it over to the boombox. Release the tape to start playing the selected track.
 If the viewer would like to stop playing the current track they may simply press the reset button located below the Boombox and cassettes.
