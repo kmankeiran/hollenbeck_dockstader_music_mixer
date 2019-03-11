@@ -1,20 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>My Awesome Icon Project</title>
-
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+<meta charset="utf-8">
+<title>Music Mixer</title>
+<!--link to reset first-->
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-	<div class="image-wrapper">
-		<img src="images/newBadge.jpg" alt="badge" id="jpgBadge">
-		<img src="images/newBadge.jpg" alt="badge" id="jpgBadge1" class="jpgBadge">
-		<img src="images/newBadge.jpg" alt="badge" id="jpgBadge2" class="jpgBadge">
-		<img src="images/newBadge.jpg" alt="badge" id="jpgBadge3" class="jpgBadge">
-		<img src="images/newBadge.jpg" alt="badge" id="jpgBadge4" class="jpgBadge">
-		<img src="images/newBadge.jpg" alt="badge" id="jpgBadge5" class="jpgBadge">
+
+
+	<!-- <div id="dropZone"></div> -->
+
+	<img src="images/boombox.svg" id="dropZone">
+
+	
+	<div id="musicTapes">
+		<img src="images/Chainsmokers.svg" id="audioOne" draggable>
+
+		<img src="images/Coldplay.svg" id="audioTwo" draggable>
+
+		<img src="images/We are Leo.svg" id="audioThree" draggable>
+
+		<img src="images/Breaking Benjamin.svg" id="audioFour" draggable>
+
+		<img src="images/Ed Sheeran.svg" id="audioFive" draggable>
 	</div>
+
+	<button id="resetButton">Reset Music</button>
+
+	
+
+
+
+
+<!--load js at bottom, so DOM gets built-->
 	<script src="js/main.js"></script>
 </body>
 </html>
