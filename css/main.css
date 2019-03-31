@@ -17,22 +17,68 @@ body
 
 #dropZone
 {
-	width: 40%;
-	margin-bottom: 30px;
-	margin-left: 560px;
-	margin-right: auto;
+	width: 15%;
+	margin-bottom: 80px;
+	margin-left: 800px;
+	margin-top: 80px;
 }
 
-#musicTapes
+#musicGuitar
 {
 	display: flex;
 	flex-direction: row;
 }
 
-#musicTapes img
+
+#musicGuitar img
 {
-	height: 300px;
-	width: 500px;
+	height: 200px;
+	width: 300px;
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+#musicDrum
+{
+	display: flex;
+	flex-direction: row;
+}
+#musicDrum
+{
+	margin-left: 1000px;
+}
+
+#musicDrum img
+{
+	height: 200px;
+	width: 300px;
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+#musicBass
+{
+	display: flex;
+	flex-direction: row;
+}
+#musicBass
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#musicBass img
+{
+	height: 200px;
+	width: 300px;
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
 }
 
 #resetButton
@@ -40,7 +86,7 @@ body
 	background-color: #666;
 	width: 200px;
 	display: block;
-	margin-top: 45px;
+	margin-top: 55px;
 	margin-left: 850px;
 	padding-top: 8px;
 	padding-bottom: 8px;
